@@ -1,0 +1,12 @@
+{"product": 
+    [
+        {"type":"koreanbook", "price":6000, "name":"korean_grade5"},
+        {"type":"koreanbook", "price":6000, "name":"korean_grade6"},
+        {"type":"mathbook", "price":5000, "name":"math_grade5"},
+        {"type":"mathbook", "price":5000, "name":"math_grade6"},
+        {"type":"sciencebook", "price":7000, "name":"science_grade5"},
+        {"type":"sciencebook", "price":7000, "name":"science_grade6"},
+        {"type":"englishbook", "price":4000, "name":"english_grade5"},
+        {"type":"englishbook", "price":4000, "name":"english_grade6"}
+    ]
+}

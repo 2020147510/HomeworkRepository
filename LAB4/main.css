@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+#nav{font-size: 17px;}
+#two_col {
+	column-count: 2;
+	column-gap: 10px;
+	column-width: 480px;
+	column-rule-style: solid;
+	column-rule-width: 1px;
+	}
+
+.back_green{background-color: greenyellow;}
+.back_red{background-color: red;}
+.back_aquamarine{background-color: aquamarine;}
+
+.none{text-decoration: none;}
+.bar{text-decoration:underline; text-decoration-color: crimson; text-underline-position: under;}
+.necessary{color: red; margin-left: 25px; font-weight: bold;}
+.choice{width: 200px; height: 50px;}
+.box{
+	border-style: solid;
+	border-color: darkgrey;
+	padding: 20px;
+}
+.product{
+	width: 100px;
+	height: 100px;
+	margin: auto 0px;
+}
+.product_animation:hover{
+	transition: width 2s, height 2s;
+	width: 290px;
+    height: 290px;
+}
+.index_animation {
+	width: 1000px;
+	position: relative;
+	animation-name: index_anime;
+	animation-duration: 2s;
+}
+
+p{border: none;}
+label{margin-left: 25px;}
+body{font-family: 'Nanum Gothic Coding', monospace;  font-size: 20px; width: 1000px; margin: 0 auto;}
+input{font-size: 20px;}
+button{font-size: 20px;}
+h1{
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	width: auto;
+	height: auto;
+}
+
+@keyframes index_anime {
+	from {left:1020px;}
+    to {left:0px;}
+}
+
+img{
+	width: 100px;
+	height: 100px;
+}
+
+table{border-spacing:20px;}
